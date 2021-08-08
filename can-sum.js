@@ -1,4 +1,4 @@
-const canSumAlt = (targetSum, numArr) => {
+const canSum = (targetSum, numArr) => {
   if (targetSum === 0) return true;
   if (targetSum < 0) return false;
 
